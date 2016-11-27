@@ -1,4 +1,5 @@
 <?php
+		session_start();
        $servername = "localhost";
        $username = "root";
        $password = "";
@@ -16,7 +17,7 @@
  
        } 
  
-       $sql = "SELECT balance from tbl_acct where username = 'juliusrei'";
+       $sql = "SELECT balance from tbl_acct where username = '".$_SESSION['user']."'";
        $result = $conn->query($sql);
        $row = $result->fetch_assoc();
        $count = $result->num_rows;

@@ -38,7 +38,7 @@ if(isset($_POST['login']))
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="index.php">U-man Remittance</a>
+						<a class="navbar-brand" href="index.php">BurbBank</a>
 					</div>
 					<center>
 						<div class="navbar-collapse collapse" id="navbar-main">

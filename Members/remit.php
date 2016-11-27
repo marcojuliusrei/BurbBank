@@ -165,7 +165,7 @@ waitForMsg();
 			</div>
 
 	<div class='container'>
-		<strong><center><div class='well well-lg'>Balance: P <span id="notification_counts"></span><div>LEVEL: <?php echo $level;?></div></center></strong>
+		<strong><center><div class='well well-lg'>Balance: P <?php echo $_SESSION['balance'];?><div>LEVEL: <?php echo $level;?></div></center></strong>
 	</div>	
 
 	<div class='container bg-info'>
